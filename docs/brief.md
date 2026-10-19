@@ -6,7 +6,7 @@ Julio's online front door. The hub is a public landing page only: it offers a ch
 - Redesigned as a landing page: a title, one line, and a clean choice between two destinations, the professional site and the project portal.
 - Static: `index.html` and `styles.css` only, with no JavaScript. Each choice shows "Opening soon" until its site has an address; see the README for turning it into a link.
 - The earlier departures-board design (one row per project, with JH codes) is retired. The private claude.ai mockup at https://claude.ai/artifact/Y2ysMWs8dVgDEX95wCnUfn now shows the landing page.
-- - Live at https://jules-hub.pages.dev (Cloudflare Pages, deploys from main).
+- Live at https://jules-hub.pages.dev (Cloudflare Pages, deploys from main).
 
 ## Destinations
 | Destination | For | Status |
