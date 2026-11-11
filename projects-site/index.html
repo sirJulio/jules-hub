@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#f5f6f3">
+<title>Projects — JDunne</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap');
+:root{--bg:#f5f6f3;--paper:#fff;--ink:#20231f;--muted:#7d857c;--line:#e7e9e3;--green:#c5f277;--deep:#24332b;--shadow:0 12px 36px #1d2a200d;--sidebar:252px}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:'DM Sans',sans-serif}button,a{font:inherit}button{cursor:pointer}.shell{min-height:100vh;display:grid;grid-template-columns:var(--sidebar) minmax(0,1fr)}.rail{position:sticky;top:0;height:100vh;background:#fbfcfa;border-right:1px solid var(--line);padding:25px 16px 17px;display:flex;flex-direction:column}.brand{display:flex;align-items:center;gap:11px;padding:0 10px 30px;color:var(--ink);text-decoration:none}.brand-mark{width:34px;height:34px;border-radius:11px;background:var(--green);display:grid;place-items:center;font-weight:800;font-size:14px;color:#263124}.brand-name{font:800 16px Manrope,sans-serif;letter-spacing:-.5px}.brand-sub{font:10px 'DM Mono',monospace;letter-spacing:1.1px;color:var(--muted);margin-top:3px}.group-label{padding:0 12px;margin:0 0 9px;font:500 10px 'DM Mono',monospace;letter-spacing:1.4px;color:#949b92;text-transform:uppercase}.nav{display:grid;gap:5px}.nav-btn{position:relative;width:100%;min-height:46px;display:flex;align-items:center;gap:11px;padding:0 12px;border:0;border-radius:10px;text-align:left;background:transparent;color:#596157;font-size:12px;font-weight:600;transition:background .15s,color .15s}.nav-btn:hover{background:#f0f2ed;color:var(--ink)}.nav-btn.active{background:#edf2e8;color:#2e422f}.nav-btn.active:before{content:'';position:absolute;left:-16px;top:10px;bottom:10px;width:3px;border-radius:0 4px 4px 0;background:#93bd57}.nav-icon{width:25px;height:25px;border:1px solid #e4e8df;background:#fff;border-radius:8px;display:grid;place-items:center;font-size:12px;color:#687464}.active .nav-icon{background:#dff0c2;border-color:#d4e8b6;color:#365332}.nav-meta{margin-left:auto;font:10px 'DM Mono',monospace;color:#9aa197}.rail-bottom{margin-top:auto;border-top:1px solid var(--line);padding:15px 9px 0;display:flex;align-items:center;gap:10px}.avatar{width:31px;height:31px;background:#e8ecdf;color:#506044;border-radius:50%;display:grid;place-items:center;font-weight:700;font-size:11px}.owner{font-size:11px;font-weight:700}.owner small{display:block;margin-top:3px;color:var(--muted);font-size:10px;font-weight:400}.main{min-width:0;padding:0 42px 50px}.topbar{height:68px;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between}.crumb{color:#90978e;font:10px 'DM Mono',monospace;letter-spacing:.8px;text-transform:uppercase}.top-link{color:#687064;text-decoration:none;font-size:11px}.top-link:hover{color:#2e422f}.view{max-width:1120px;margin:0 auto}.hero{padding:54px 0 28px;display:flex;align-items:end;justify-content:space-between;gap:20px}.eyebrow{font:500 10px 'DM Mono',monospace;letter-spacing:1.7px;text-transform:uppercase;color:#858d82}.hero h1{font:700 clamp(30px,4vw,44px) Manrope,sans-serif;letter-spacing:-1.8px;margin:10px 0 9px}.hero p{margin:0;color:#747d72;font-size:14px;line-height:1.6;max-width:560px}.count{border:1px solid var(--line);background:#fff;border-radius:100px;padding:9px 13px;color:#65705f;font-size:10px;white-space:nowrap}.section-head{display:flex;justify-content:space-between;align-items:center;margin:23px 0 13px}.section-head h2{font:700 14px Manrope;margin:0;letter-spacing:-.2px}.section-head span{color:#929990;font:10px 'DM Mono',monospace;letter-spacing:.6px}.cards{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}.project-card{position:relative;min-height:205px;background:var(--paper);border:1px solid var(--line);border-radius:15px;padding:19px 20px;box-shadow:var(--shadow);display:flex;flex-direction:column;cursor:pointer;transition:transform .18s,box-shadow .18s,border-color .18s}.project-card:hover{transform:translateY(-2px);border-color:#d6dfcc;box-shadow:0 16px 34px #1d2a2014}.card-top{display:flex;align-items:center;justify-content:space-between}.project-icon{width:38px;height:38px;border-radius:12px;background:#e7f2d8;display:grid;place-items:center;font-size:17px}.project-icon.dark{background:#e8ebe6;color:#354236}.status{display:flex;align-items:center;gap:6px;color:#73806d;font:10px 'DM Mono',monospace}.dot{width:6px;height:6px;border-radius:50%;background:#93bd57}.project-card h3{font:700 16px Manrope;margin:18px 0 6px;letter-spacing:-.35px}.project-card p{font-size:11px;line-height:1.55;color:var(--muted);margin:0;max-width:360px}.card-foot{display:flex;align-items:center;justify-content:space-between;margin-top:auto;padding-top:16px}.domain{color:#6d776b;font:10px 'DM Mono',monospace}.open-arrow{width:28px;height:28px;border:1px solid var(--line);border-radius:9px;display:grid;place-items:center;color:#576452}.note{margin-top:18px;padding:14px 16px;border:1px dashed #dfe4da;border-radius:12px;color:#778074;font-size:11px;line-height:1.5}.project-view{padding-top:24px;min-height:calc(100vh - 118px)}.project-head{display:flex;align-items:center;gap:13px;padding:14px 0 20px}.project-head .project-icon{width:42px;height:42px}.project-head h1{font:700 21px Manrope;margin:0 0 4px;letter-spacing:-.7px}.project-head p{margin:0;color:var(--muted);font-size:11px}.frame{display:block;width:100%;height:calc(100vh - 205px);min-height:640px;border:1px solid var(--line);border-radius:14px;background:#f4f5f1;box-shadow:var(--shadow)}.detail{background:#fff;border:1px solid var(--line);border-radius:15px;padding:24px;box-shadow:var(--shadow);max-width:650px}.detail p{font-size:13px;color:#737c70;line-height:1.65}.launch{display:inline-flex;align-items:center;gap:9px;margin-top:8px;padding:11px 14px;border-radius:9px;background:var(--deep);color:#fff;text-decoration:none;font-size:11px;font-weight:600}.launch:hover{background:#344c3d}.hide{display:none!important}@media(max-width:760px){:root{--sidebar:72px}.rail{padding:18px 9px}.brand{padding:0 9px 26px}.brand-name,.brand-sub,.group-label,.nav-label,.nav-meta,.owner,.rail-bottom{display:none}.nav-btn{justify-content:center;padding:0;min-height:45px}.nav-icon{width:31px;height:31px}.nav-btn.active:before{left:-9px}.main{padding:0 20px 35px}.topbar{height:58px}.hero{padding:38px 0 20px;display:block}.count{display:inline-block;margin-top:17px}.cards{grid-template-columns:1fr}.project-card{min-height:180px}.frame{height:calc(100vh - 186px);min-height:520px}.project-head h1{font-size:18px}}@media(max-width:430px){:root{--sidebar:58px}.rail{padding-left:7px;padding-right:7px}.nav-btn.active:before{left:-7px}.main{padding-left:14px;padding-right:14px}.crumb{font-size:9px}.top-link{font-size:10px}.project-card{padding:16px}.hero h1{font-size:31px}}
++</style>
++</head>
++<body>
++<div class="shell">
++  <aside class="rail">
++    <a class="brand" href="#overview" aria-label="JDunne projects home">
++      <span class="brand-mark">J</span><span><span class="brand-name">jdunne.au</span><span class="brand-sub">PROJECTS</span></span>
++    </a>
++    <p class="group-label">Workspace</p>
++    <nav class="nav" aria-label="Projects">
++      <button class="nav-btn active" data-view="overview"><span class="nav-icon">⌂</span><span class="nav-label">Overview</span></button>
++    </nav>
++    <p class="group-label" style="margin-top:26px">Projects</p>
++    <nav class="nav" aria-label="Project tabs">
++      <button class="nav-btn" data-view="framewise"><span class="nav-icon">▶</span><span class="nav-label">Framewise</span><span class="nav-meta">01</span></button>
++      <button class="nav-btn" data-view="jules"><span class="nav-icon">✳</span><span class="nav-label">Jules Hub</span><span class="nav-meta">02</span></button>
++    </nav>
++    <div class="rail-bottom"><span class="avatar">JD</span><span class="owner">Julian Dunne<small>Personal projects</small></span></div>
++  </aside>
++  <main class="main">
++    <header class="topbar"><span class="crumb" id="crumb">Workspace / Overview</span><a class="top-link" href="https://jdunne.au" target="_blank" rel="noopener">jdunne.au ↗</a></header>
++    <div class="view" id="overviewView">
++      <section class="hero"><div><div class="eyebrow">A HOME FOR THINGS I’M BUILDING</div><h1>Projects, all in one place.</h1><p>Pick a project from the left to jump straight in. New experiments and useful little tools will live here as they take shape.</p></div><span class="count">02 &nbsp;PROJECTS</span></section>
++      <div class="section-head"><h2>Your projects</h2><span>SELECT A PROJECT TO OPEN</span></div>
++      <section class="cards">
++        <article class="project-card" data-open="framewise" tabindex="0" role="button" aria-label="Open Framewise">
++          <div class="card-top"><span class="project-icon">▶</span><span class="status"><i class="dot"></i> LIVE</span></div>
++          <h3>Framewise</h3><p>A video study workspace for turning YouTube videos and transcripts into useful guides.</p>
++          <div class="card-foot"><span class="domain">projects.jdunne.au</span><span class="open-arrow">↗</span></div>
++        </article>
++        <article class="project-card" data-open="jules" tabindex="0" role="button" aria-label="Open Jules Hub">
++          <div class="card-top"><span class="project-icon dark">✳</span><span class="status"><i class="dot"></i> LIVE</span></div>
++          <h3>Jules Hub</h3><p>The main jdunne.au landing page and its project links.</p>
++          <div class="card-foot"><span class="domain">jdunne.au</span><span class="open-arrow">↗</span></div>
++        </article>
++      </section>
++      <div class="note">This space can grow as you make more projects. Each one can get its own tab here.</div>
++    </div>
++    <section class="view project-view hide" id="framewiseView">
++      <div class="project-head"><span class="project-icon">▶</span><span><h1>Framewise</h1><p>Video study workspace · Live at projects.jdunne.au</p></span></div>
++      <iframe class="frame" src="./framewise/" title="Framewise video study app" loading="lazy"></iframe>
++    </section>
++    <section class="view project-view hide" id="julesView">
++      <div class="project-head"><span class="project-icon dark">✳</span><span><h1>Jules Hub</h1><p>Your main site · jdunne.au</p></span></div>
++      <div class="detail"><div class="eyebrow">MAIN WEBSITE</div><p>Jules Hub is currently published on your main domain. Open it in a new tab to visit the live site.</p><a class="launch" href="https://jdunne.au" target="_blank" rel="noopener">Open Jules Hub <span>↗</span></a></div>
++    </section>
++  </main>
++</div>
++<script>
++const views={overview:document.getElementById('overviewView'),framewise:document.getElementById('framewiseView'),jules:document.getElementById('julesView')};
++const crumbs={overview:'Workspace / Overview',framewise:'Projects / Framewise',jules:'Projects / Jules Hub'};
++function openView(name){if(!views[name])return;Object.entries(views).forEach(([key,el])=>el.classList.toggle('hide',key!==name));document.querySelectorAll('.nav-btn').forEach(btn=>btn.classList.toggle('active',btn.dataset.view===name));document.getElementById('crumb').textContent=crumbs[name];history.replaceState(null,'','#'+name);window.scrollTo({top:0,behavior:'smooth'});}
++document.querySelectorAll('.nav-btn').forEach(btn=>btn.addEventListener('click',()=>openView(btn.dataset.view)));
++document.querySelectorAll('.project-card').forEach(card=>{const open=()=>openView(card.dataset.open);card.addEventListener('click',open);card.addEventListener('keydown',event=>{if(event.key==='Enter'||event.key===' '){event.preventDefault();open();}})});
++const initial=location.hash.slice(1);openView(views[initial]?initial:'overview');
++</script>
++</body>
++</html>
