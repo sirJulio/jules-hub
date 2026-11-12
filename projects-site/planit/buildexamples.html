@@ -48,6 +48,7 @@ table.grid{width:100%;border-collapse:separate;border-spacing:0;font-size:13.5px
 @media(max-width:700px){.app{padding:0 14px 40px}.panel{padding:16px 14px}.hero{padding-top:24px}.stats{grid-template-columns:1fr}.stat-label{min-height:0}}
 @media print{.tabs-wrap,.topbar{display:none}.panel[hidden]{display:block!important}.panel{box-shadow:none;break-inside:avoid-page;margin-bottom:18px}}
 </style>
+<noscript><style>.panel[hidden]{display:block!important}.tablist{display:none}</style></noscript>
 </head>
 <body>
 <div class="app">
@@ -63,7 +64,7 @@ table.grid{width:100%;border-collapse:separate;border-spacing:0;font-size:13.5px
 <button class="tab" role="tab" id="tab-ex2" aria-controls="panel-ex2" aria-selected="false" tabindex="-1" data-id="ex2">Example 2</button>
 <button class="tab" role="tab" id="tab-ex3" aria-controls="panel-ex3" aria-selected="false" tabindex="-1" data-id="ex3">Example 3</button>
   </div></div>
-<section class="panel" id="panel-summary" role="tabpanel" aria-labelledby="tab-summary" tabindex="-1" hidden>
+<section class="panel" id="panel-summary" role="tabpanel" aria-labelledby="tab-summary" tabindex="-1">
 <h2 class="sheet-title">Estimated total cash cost, three Melbourne examples</h2>
 <p class="sheet-sub">AUD, including GST. Each example is costed three ways. Totals only.</p>
 <div class="tablewrap" tabindex="0" role="region" aria-label="Summary table, scrolls sideways on narrow screens">
