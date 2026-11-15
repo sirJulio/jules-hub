@@ -1,6 +1,6 @@
 # Jules Hub — brief
 
-Julio's online front door. The hub is a public landing page only: it offers a choice between his professional site and his project portal, and links to each. It does not manage anything itself.
+Julio's online front door. The hub is a public landing page only: it offers a choice between his professional site, his project portal and his games site, and links to each. It does not manage anything itself.
 
 ## Current state (20 Oct 2026)
 - Redesigned as a landing page: a title, one line, and a clean choice between two destinations, the professional site and the project portal.
@@ -12,7 +12,8 @@ Julio's online front door. The hub is a public landing page only: it offers a ch
 | Destination | For | Status |
 |---|---|---|
 | Professional site | Employers and clients; includes the animated timeline idea | Planned |
-| Project portal | Invited collaborators; manages all projects and includes the think tank | Planned |
+| Project portal | Invited collaborators; manages all projects and includes the think tank | Live at projects.jdunne.au |
+| Games | Friends and players; SmukkeGammon backgammon first (repo `sirJulio/smukkegammon`) | Live at games.jdunne.au |
 
 Neither has a public address yet.
 
@@ -26,6 +27,7 @@ Neither has a public address yet.
 - All individual projects (podcast app, Institutional Intoxication, intellectual journal, Übermensch and future ones) are managed in the project portal, not listed on the hub. The hub offers only the two destinations; a project with its own public presence could be added later.
 - Think tank participants: Julio, people he invites, and Claude as a participant in discussions.
 - The portal, including the think tank, is private by default and invite-only. The hub only links to it.
+- 16 Nov 2026: games.jdunne.au added as a third destination, since the games are public and meant to be shared with friends rather than managed in the portal.
 
 ## Open questions
 - Domain name?

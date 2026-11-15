@@ -1,4 +1,4 @@
-/* Layout: one centred column. A large title, a single line beneath it, then two equal choice panels side by side (stacked on phones). */
+/* Layout: one centred column. A large title, a single line beneath it, then three equal choice panels side by side (two then one on tablets, stacked on phones). */
 :root {
   --bg: #eef0f4;
   --panel: #ffffff;
@@ -62,7 +62,7 @@ body {
 
 .choices {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 16px;
 }
 
@@ -128,6 +128,9 @@ footer {
   color: var(--muted);
 }
 
+@media (max-width: 900px) {
+  .choices { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
 @media (max-width: 640px) {
   .choices { grid-template-columns: minmax(0, 1fr); }
   .choice { padding: 24px 20px 20px; }
